@@ -18,7 +18,8 @@ first_name = player.find(' ')
 last_name = player[5:11]
 
 '''ik heb uren gegoogled en verdwaald geraakt in tutorial hell, 
-   ik kan helaas nergens vinden hoe ik voor last_name zoek vanaf de spatie (' ') tot het laatste karakter'''
+   ik kan helaas nergens vinden hoe ik voor last_name zoek vanaf de spatie (' ') tot het laatste karakter 
+   of hoe ik .find .len .[] in 1 regel mag en kan gebruiken'''
 
 last_name_len = len(last_name)
 name_short = player[0] + '. ' + player[5:11]
